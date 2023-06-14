@@ -1,5 +1,4 @@
 /*
-Theme Name: Dstudio
 
   1. >>> Nav Style
   2. >>> Headr Style
@@ -152,8 +151,8 @@ img {
   2. >>> Header Style
 ----------------------------------------------------------------*/
 .ds-header-avatar {
-	height: 15rem;
-	width: 15rem;
+	height: 20rem;
+	width: 20rem;
 	background-repeat: no-repeat;
 	background-position: 50%;
 	border-radius: 50%;
