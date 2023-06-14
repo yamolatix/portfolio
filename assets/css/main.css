@@ -1,0 +1,1032 @@
+/*
+Theme Name: Dstudio
+
+  1. >>> Nav Style
+  2. >>> Headr Style
+  3. >>> Banner Style
+  4. >>> About Style
+  5. >>> Work Style
+  6. >>> Blog Style
+  7. >>> Footer Style
+
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------*/
+html {
+	font-family: 'Inter', sans-serif;
+	background-color: #FFF
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	overflow-x: hidden;
+	background-color: #FFF;
+	font-weight: 400;
+	font-style: normal;
+	color: #000;
+	font-size: 14px
+}
+
+a,
+a:hover,
+a:focus,
+i,
+input,
+button,
+input:focus,
+.transition {
+	text-decoration: none;
+	outline: none;
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: all;
+	transition-timing-function: ease;
+	box-shadow: none;
+}
+
+a {
+	color: #000
+}
+
+iframe {
+	border: 0;
+	outline: none;
+}
+
+::-moz-selection {
+	background: #000;
+	text-shadow: none;
+	color: #FFF
+}
+
+::selection {
+	background: #000;
+	text-shadow: none;
+	color: #FFF
+}
+
+img {
+	max-width: 100%;
+	border: none;
+	outline: none;
+	height: auto;
+}
+
+input,
+textarea {
+	border-radius: 0;
+	resize: none;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+	background-color: transparent;
+	background-image: none;
+	color: #000;
+}
+
+/* 1.2 Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Inter', sans-serif;
+}
+
+figure {
+	margin: 0
+}
+
+svg,
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*-----------------------------------------------------------------
+  1. >>> Nav Style
+----------------------------------------------------------------*/
+.ds-navbar {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FFF;
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: all;
+	transition-timing-function: ease;
+}
+
+.ds-navbar.ds-fixed-header {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.ds-navbar.navbar-dark .navbar-nav .nav-link {
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.ds-navbar.navbar-dark .navbar-nav .nav-link.ds-contact-buton-nav {
+	color: #FFF;
+	display: inline-block;
+	background-color: #000;
+	border-radius: 3px;
+	color: #FFF;
+	padding: 8px 23px;
+}
+
+.ds-navbar.navbar-dark .nav-item {
+	margin-left: 30px;
+}
+
+/*-----------------------------------------------------------------
+  2. >>> Header Style
+----------------------------------------------------------------*/
+.ds-header-avatar {
+	height: 15rem;
+	width: 15rem;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	border-radius: 50%;
+	background-size: 100% auto;
+}
+
+.ds-header {
+	background-image: url("/assets/images/background-banner.jpg");
+	padding-top: 128px;
+	padding-bottom: 119px;
+	color: white;
+}
+
+.ds-header h1 {
+	font-size: 48px;
+	line-height: 59px;
+	font-weight: 200;
+}
+
+.ds-header h1 strong {
+	display: block;
+	font-weight: 600;
+}
+
+/*-----------------------------------------------------------------
+  3. >>> Banner Style
+----------------------------------------------------------------*/
+.ds-banner-slider {
+	margin: 0 -15px;
+}
+
+.ds-banner-slider figure {
+	padding: 0 15px;
+}
+
+/*-----------------------------------------------------------------
+  4. >>> About Style
+----------------------------------------------------------------*/
+.ds-about-section {
+	padding-top: 116px;
+	padding-bottom: 116px;
+}
+
+.ds-heading {
+	font-size: 36px;
+	line-height: 44px;
+}
+
+.ds-about-top-sec {
+	padding-bottom: 116px;
+}
+
+.ds-about-top-sec span {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 16px;
+}
+
+.ds-about-top-sec p {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+
+.ds-about-top-sec p:last-child {
+	margin-bottom: 0;
+}
+
+.ds-sub-heading {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.ds-about-bot-sec ul {
+	list-style: inside;
+	padding: 0;
+	margin: 0;
+}
+
+.ds-about-bot-sec ul li {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 16px;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+
+.ds-about-bot-sec ul li:last-child {
+	margin-bottom: 0;
+}
+
+/*-----------------------------------------------------------------
+  5. >>> Work Style
+----------------------------------------------------------------*/
+.ds-work-section {
+	padding-bottom: 120px;
+	padding-top: 120px;
+	background-color: #EEF4F3;
+}
+
+.ds-work-slider-loop section {
+	padding-right: 70px;
+}
+
+.ds-brands {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 16px;
+	display: block;
+	margin-bottom: 39px;
+}
+
+.ds-work-slider-loop p {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.ds-more-button {
+	display: inline-block;
+	color: #000;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 20px;
+	position: relative;
+}
+
+.ds-more-button i {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ds-more-button:hover,
+.ds-button:hover,
+.ds-blog-loop-sec h2 a:hover {
+	color: #000;
+}
+
+.ds-more-button:after,
+.ds-button:after {
+	content: "";
+	border-bottom: 1px solid #000;
+	width: 0;
+	display: block;
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: all;
+	transition-timing-function: ease;
+}
+
+.ds-more-button:hover:after,
+.ds-button:hover:after {
+	width: 100%;
+}
+
+.slick-dots {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	bottom: 93px;
+}
+
+.slick-dots li {
+	margin-right: 10px;
+}
+
+.slick-dots li:last-child {
+	margin-right: 0;
+}
+
+.slick-dots li button {
+	width: 30px;
+	height: 6px;
+	border: none;
+	outline: none;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	font-size: 0;
+	line-height: 0;
+}
+
+.slick-dots li.slick-active button {
+	background-color: #000;
+}
+
+.ds-logo-list-section {
+	padding-top: 120px;
+}
+
+.ds-logo-list-slider {
+	margin: 0 -15px;
+}
+
+.ds-logo-list-slider figure {
+	text-align: center;
+	padding: 0 15px;
+}
+
+.ds-logo-list-slider figure img {
+	display: inline-block;
+	max-width: 133px;
+}
+
+
+.ds-work-det-hed {
+	padding-top: 42px;
+
+}
+
+.ds-work-det-title {
+	font-weight: 600;
+	color: #000;
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.ds-work-det-dep {
+	display: block;
+	font-weight: 600;
+	color: #000;
+	font-size: 18px;
+}
+
+.ds-work-content-sec {
+	padding: 10px 0;
+}
+
+.ds-work-content-sec p {
+	font-size: 18px;
+	line-height: 36px;
+	margin-bottom: 30px;
+}
+
+.ds-work-content-sec h2 {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.ds-work-content-sec ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ds-work-content-sec li {
+	font-size: 18px;
+	line-height: 36px;
+	padding-left: 28px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.ds-work-content-sec li:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 13px;
+	border-radius: 100%;
+	width: 8px;
+	height: 8px;
+	background-color: #373737;
+}
+
+
+/*-----------------------------------------------------------------
+  6. >>> Blog Style
+----------------------------------------------------------------*/
+.ds-blog-section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.ds-blog-sec-hed {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-bottom: 60px;
+}
+
+.ds-blog-sec-hed .ds-brands {
+	margin-bottom: 0;
+}
+
+.ds-blog-loop {
+	transition-delay: 0s;
+	transition-duration: 0.6s;
+	transition-property: all;
+	transition-timing-function: ease;
+}
+
+.ds-blog-loop-sec {
+	background-color: #FFF;
+	transition-delay: 0s;
+	transition-duration: 0.6s;
+	transition-property: all;
+	transition-timing-function: ease;
+	box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.15);
+	transform: translateY(0px);
+}
+
+.ds-blog-loop:hover .ds-blog-loop-sec {
+	box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.20);
+	transform: translateY(-10px);
+}
+
+.ds-blog-loop-sec section {
+	padding: 30px;
+}
+
+.ds-blog-loop-sec h2 {
+	font-size: 18px;
+	line-height: 26px;
+	margin-bottom: 0;
+}
+
+.ds-blog-loop-sec h2 a {
+	color: #000;
+}
+
+.ds-blog-section-listing .ds-blog-loop {
+	margin-bottom: 60px;
+}
+
+.ds-blog-sec-hed .ds-brands.da-blog-details {
+	margin-bottom: 13px;
+	display: block;
+}
+
+.ds-blog-tags {
+	font-size: 16px;
+}
+
+.ds-blog-tags strong {
+	display: block;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.ds-blog-image img {
+	display: inline-block;
+}
+
+.ds-blog-det-content-sec {
+	padding: 80px 0;
+}
+
+.ds-blog-det-content-sec p {
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+
+.ds-blog-det-content-sec p:last-child {
+	margin-bottom: 0;
+}
+
+.ds-blog-det-content-sec h2 {
+	font-size: 30px;
+	margin-bottom: 18px;
+}
+
+.ds-blog-det-content-sec ol {
+	list-style: inside;
+	padding: 0;
+	margin: 0;
+}
+
+.ds-blog-det-content-sec ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ds-blog-det-content-sec ul li,
+.ds-blog-det-content-sec ol li {
+	font-size: 18px;
+	line-height: 30px;
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+.ds-blog-det-content-sec ul li:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 8px;
+	height: 8px;
+	background-color: #000;
+	border-radius: 100%;
+	top: 12px;
+}
+
+.ds-blog-det-content-sec ol li {
+	padding-left: 0;
+}
+
+.ds-sub-hed {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.ds-comments-lists {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.ds-comments-lists li {
+	border-bottom: 1px solid #DDDCDC;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+	margin-bottom: 40px;
+}
+
+.ds-comments-image {
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.ds-comments-cont-section {
+	width: 89%;
+}
+
+.ds-com-hed-sec {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+
+.ds-com-name {
+	display: block;
+	font-weight: 600;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+.ds-com-date {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.ds-comments-cont-section p {
+	color: #333333;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.ds-reply:hover {
+	color: #000;
+}
+
+.ds-comments-lists li ul {
+	margin-top: 30px;
+}
+
+.ds-comments-lists li ul li {
+	padding-top: 40px;
+	margin-bottom: 0;
+	border-bottom: none;
+	border-top: 1px solid #DDDCDC;
+	padding-bottom: 0;
+	padding-left: 70px;
+}
+
+.form-control {
+	border-radius: 0;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-color: #000;
+	color: #000;
+	font-size: 16px;
+	padding-left: 0;
+	padding: 13px 0;
+	padding-right: 13px;
+	margin-bottom: 30px;
+	outline: none;
+	box-shadow: none;
+}
+
+.form-control:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+textarea.form-control {
+	height: 110px;
+}
+
+.ds-comment-button {
+	display: inline-block;
+	border-radius: 0;
+	border: none;
+	outline: none;
+	background-color: #000;
+	border-radius: 3px;
+	color: #FFF;
+	font-size: 16px;
+	padding: 8px 23px;
+}
+
+.ds-comment-button:hover {
+	background-color: #000;
+	color: #FFF;
+}
+
+/*-----------------------------------------------------------------
+  6. >>> Footer Style
+----------------------------------------------------------------*/
+.ds-footer {
+	background-color: #EEF4F3;
+	padding: 120px 0;
+}
+
+.ds-footer section h4 {
+	letter-spacing: -0.92px;
+	font-size: 70px;
+	margin-bottom: 4px;
+}
+
+.ds-footer section p {
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.7);
+	margin-bottom: 43px;
+}
+
+.ds-footer section a {
+	font-weight: 300;
+	font-size: 36px;
+	color: #000;
+	display: inline-block;
+}
+
+.ds-social {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.ds-social li {
+	margin-left: 70px;
+}
+
+.ds-social li:first-child {
+	margin-left: 0;
+}
+
+.ds-social li a {
+	color: #797979;
+	font-size: 40px;
+}
+
+.ds-social li a:hover {
+	color: #000;
+}
+
+.ds-copyright {
+	color: #2B2B2B;
+	font-size: 16px;
+	text-align: right;
+	display: block;
+	margin-top: 40px;
+}
+
+/*-------------------------------------------------------------------------------
+ Responsive XS Style @media (max-width: 767px) 
+-------------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+
+	.ds-main-section,
+	.ds-main-section-inner {
+		overflow-x: hidden;
+	}
+
+	.ds-navbar {
+		padding: 10px 0;
+	}
+
+	.ds-nav-wrapper {
+		overflow: hidden;
+		visibility: hidden;
+		opacity: 0;
+		height: 0;
+		width: 0;
+		transition-delay: 0s;
+		transition-duration: 0.6s;
+		transition-property: all;
+		transition-timing-function: ease;
+		border-radius: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		top: 64px;
+		bottom: 0;
+		right: 0;
+		-webkit-border-bottom-left-radius: 500px;
+		-moz-border-radius-bottomleft: 500px;
+		border-bottom-left-radius: 500px;
+	}
+
+	.ds-nav-wrapper.ds-menu-open {
+		visibility: visible;
+		opacity: 1;
+		width: 100%;
+		height: 100vh;
+		-webkit-border-bottom-left-radius: 0;
+		-moz-border-radius-bottomleft: 0;
+		border-bottom-left-radius: 0;
+	}
+
+
+
+	.ds-nav-wrapper.ds-menu-open .collapse:not(.show) {
+		display: block;
+		text-align: center;
+	}
+
+	.ds-navbar.navbar-dark .nav-item {
+		margin-left: 0;
+	}
+
+	.ds-navbar.navbar-dark .navbar-nav .nav-link {
+		color: #FFF;
+		font-size: 56px;
+		font-weight: 200;
+	}
+
+	.ds-navbar.navbar-dark .navbar-nav .nav-link.ds-contact-buton-nav {
+		background-color: transparent;
+	}
+
+	.navbar-toggler {
+		padding: 2px 6px;
+	}
+
+	.ds-menu-icon {
+		display: inline-block;
+		width: 25px;
+	}
+
+	.ds-menu-icon span {
+		display: block;
+		width: 100%;
+		height: 2px;
+		margin-bottom: 4px;
+		background-color: #000;
+		transition-delay: 0s;
+		transition-duration: 0.6s;
+		transition-property: all;
+		transition-timing-function: ease;
+	}
+
+	.ds-menu-icon span:nth-child(2) {
+		width: 75%;
+	}
+
+	.ds-menu-icon span:last-child {
+		margin-bottom: 0;
+		width: 80%;
+	}
+
+	.ds-menu-open.ds-menu-icon span:nth-child(1) {
+		transform: rotate(45deg);
+	}
+
+	.ds-menu-open.ds-menu-icon span:nth-child(2) {
+		opacity: 1;
+		transform: rotate(-45deg);
+		top: -6px;
+		position: relative;
+		left: -1px;
+		width: 100%;
+	}
+
+	.ds-menu-open.ds-menu-icon span:last-child {
+		opacity: 0;
+	}
+
+
+	.navbar-dark .navbar-toggler {
+		color: #FFF;
+		border-color: #000;
+		background-color: #000;
+	}
+
+	.ds-main-section {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.ds-header,
+	.ds-about-section {
+		padding: 40px 0;
+	}
+
+	.ds-header h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.ds-heading {
+		font-size: 24px;
+		line-height: 27px;
+	}
+
+	.ds-about-top-sec span {
+		margin-bottom: 20px;
+		display: block;
+	}
+
+	.ds-about-top-sec p,
+	.ds-work-slider-loop p,
+	.ds-work-content-sec p,
+	.ds-work-content-sec li,
+	.ds-blog-det-content-sec p,
+	.ds-blog-det-content-sec ul li,
+	.ds-blog-det-content-sec ol li,
+	.ds-comments-cont-section p {
+		font-size: 15px;
+	}
+
+	.ds-about-top-sec {
+		padding-bottom: 40px;
+	}
+
+	.ds-sub-heading {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+
+	.ds-about-bot-sec {
+		margin-bottom: 40px;
+	}
+
+	.ds-about-bot-sec:last-child {
+		margin-bottom: 0;
+	}
+
+	.ds-work-section,
+	.ds-footer {
+		margin: 0 -10px;
+		padding: 40px 20px;
+	}
+
+	.ds-work-slider-loop section {
+		padding-right: 0;
+	}
+
+	.ds-brands {
+		margin-bottom: 10px;
+	}
+
+	.ds-more-button {
+		font-size: 14px;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	.ds-logo-list-section {
+		padding-top: 40px;
+	}
+
+	.ds-blog-section {
+		padding: 40px 0;
+	}
+
+	.ds-blog-sec-hed {
+		padding-bottom: 30px;
+	}
+
+	.ds-blog-loop {
+		margin-bottom: 30px;
+	}
+
+	.ds-blog-loop:last-child {
+		margin-bottom: 0;
+	}
+
+	.ds-footer {
+		text-align: center;
+	}
+
+	.ds-footer section h4 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+
+	.ds-footer section p {
+		margin-bottom: 10px;
+	}
+
+	.ds-footer section a {
+		font-size: 24px;
+	}
+
+	.ds-social {
+		justify-content: center;
+		margin-top: 30px;
+	}
+
+	.ds-social li a {
+		font-size: 26px;
+	}
+
+	.ds-social li {
+		margin-left: 20px;
+	}
+
+	.ds-copyright {
+		text-align: center;
+		font-size: 14px;
+		margin-top: 20px;
+	}
+
+	.slick-dots {
+		position: static;
+		justify-content: center;
+	}
+
+	.ds-main-section-inner {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.ds-work-det-hed {
+		padding-bottom: 30px;
+	}
+
+	.ds-work-content-sec,
+	.ds-blog-det-content-sec {
+		padding: 40px 0;
+	}
+
+	.ds-work-content-sec h2,
+	.ds-blog-det-content-sec h2 {
+		font-size: 24px;
+	}
+
+	.ds-comments-image {
+		margin-bottom: 20px;
+	}
+
+	.ds-comments-lists li ul li {
+		padding-left: 30px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.ds-main-section {
+		overflow-x: hidden;
+	}
+
+	.ds-comments-cont-section {
+		width: 79%;
+	}
+}
