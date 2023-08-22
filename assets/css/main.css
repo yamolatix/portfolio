@@ -5,7 +5,8 @@
   4. >>> About Style
   5. >>> Work Style
   6. >>> Portfolio Style
-  7. >>> Footer Style
+  7. >>> Proyects Style
+  8. >>> Footer Style
 
 */
 /*--------------------------------------------------------------
@@ -482,8 +483,260 @@ img {
 	display: block;
 }
 
+
 /*-----------------------------------------------------------------
-  6. >>> Footer Style
+  6. >>> Blog Style
+----------------------------------------------------------------*/
+.ds-blog-section {
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+
+.ds-blog-sec-hed {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-bottom: 60px;
+}
+
+.ds-blog-sec-hed .ds-brands {
+	margin-bottom: 0;
+}
+
+.ds-blog-loop {
+	transition-delay: 0s;
+	transition-duration: 0.6s;
+	transition-property: all;
+	transition-timing-function: ease;
+}
+
+.ds-blog-loop-sec {
+	background-color: #FFF;
+	transition-delay: 0s;
+	transition-duration: 0.6s;
+	transition-property: all;
+	transition-timing-function: ease;
+	box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.15);
+	transform: translateY(0px);
+}
+
+.ds-blog-loop:hover .ds-blog-loop-sec {
+	box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.20);
+	transform: translateY(-10px);
+}
+
+.ds-blog-loop-sec section {
+	padding: 30px;
+}
+
+.ds-blog-loop-sec h2 {
+	font-size: 18px;
+	line-height: 26px;
+	margin-bottom: 0;
+}
+
+.ds-blog-loop-sec h2 a {
+	color: #000;
+}
+
+.ds-blog-section-listing .ds-blog-loop {
+	margin-bottom: 60px;
+}
+
+.ds-blog-sec-hed .ds-brands.da-blog-details {
+	margin-bottom: 13px;
+	display: block;
+}
+
+.ds-blog-tags {
+	font-size: 16px;
+}
+
+.ds-blog-tags strong {
+	display: block;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.ds-blog-image img {
+	display: inline-block;
+}
+
+.ds-blog-det-content-sec {
+	padding: 80px 0;
+}
+
+.ds-blog-det-content-sec p {
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+
+.ds-blog-det-content-sec p:last-child {
+	margin-bottom: 0;
+}
+
+.ds-blog-det-content-sec h2 {
+	font-size: 30px;
+	margin-bottom: 18px;
+}
+
+.ds-blog-det-content-sec ol {
+	list-style: inside;
+	padding: 0;
+	margin: 0;
+}
+
+.ds-blog-det-content-sec ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ds-blog-det-content-sec ul li,
+.ds-blog-det-content-sec ol li {
+	font-size: 18px;
+	line-height: 30px;
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+.ds-blog-det-content-sec ul li:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 8px;
+	height: 8px;
+	background-color: #000;
+	border-radius: 100%;
+	top: 12px;
+}
+
+.ds-blog-det-content-sec ol li {
+	padding-left: 0;
+}
+
+.ds-sub-hed {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.ds-comments-lists {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.ds-comments-lists li {
+	border-bottom: 1px solid #DDDCDC;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+	margin-bottom: 40px;
+}
+
+.ds-comments-image {
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.ds-comments-cont-section {
+	width: 89%;
+}
+
+.ds-com-hed-sec {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+
+.ds-com-name {
+	display: block;
+	font-weight: 600;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+.ds-com-date {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.ds-comments-cont-section p {
+	color: #333333;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.ds-reply:hover {
+	color: #000;
+}
+
+.ds-comments-lists li ul {
+	margin-top: 30px;
+}
+
+.ds-comments-lists li ul li {
+	padding-top: 40px;
+	margin-bottom: 0;
+	border-bottom: none;
+	border-top: 1px solid #DDDCDC;
+	padding-bottom: 0;
+	padding-left: 70px;
+}
+
+.form-control {
+	border-radius: 0;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-color: #000;
+	color: #000;
+	font-size: 16px;
+	padding-left: 0;
+	padding: 13px 0;
+	padding-right: 13px;
+	margin-bottom: 30px;
+	outline: none;
+	box-shadow: none;
+}
+
+.form-control:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+textarea.form-control {
+	height: 110px;
+}
+
+.ds-comment-button {
+	display: inline-block;
+	border-radius: 0;
+	border: none;
+	outline: none;
+	background-color: #000;
+	border-radius: 3px;
+	color: #FFF;
+	font-size: 16px;
+	padding: 8px 23px;
+}
+
+.ds-comment-button:hover {
+	background-color: #000;
+	color: #FFF;
+}
+
+
+/*-----------------------------------------------------------------
+  8. >>> Footer Style
 ----------------------------------------------------------------*/
 .ds-footer {
 	background-color: #EEF4F3;
@@ -492,7 +745,7 @@ img {
 
 .ds-footer section h4 {
 	letter-spacing: -0.92px;
-	font-size: 70px;
+	font-size: 40px;
 	margin-bottom: 4px;
 }
 
@@ -504,7 +757,7 @@ img {
 
 .ds-footer section a {
 	font-weight: 300;
-	font-size: 36px;
+	font-size: 32px;
 	color: #000;
 	display: inline-block;
 }
@@ -812,10 +1065,10 @@ img {
 		padding-bottom: 30px;
 	}
 
-	.ds-work-content-sec,
+/* 	.ds-work-content-sec,
 	.ds-blog-det-content-sec {
 		padding: 40px 0;
-	}
+	} */
 
 	.ds-work-content-sec h2,
 	.ds-blog-det-content-sec h2 {
